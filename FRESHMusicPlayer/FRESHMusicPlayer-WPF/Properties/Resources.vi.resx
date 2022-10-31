@@ -230,7 +230,7 @@ Tệp không thể tìm: {0}</value>
     <value>Xóa hàng chờ</value>
   </data>
   <data name="QUEUEMANAGEMENT_QUEUEHEADER" xml:space="preserve">
-    <value>Hàng chờ sergserg </value>
+    <value>Hàng chờ sergserg  aa</value>
   </data>
   <data name="QUEUEMANAGEMENT_REMAININGTIME" xml:space="preserve">
     <value>Thời gian còn lại: </value>
