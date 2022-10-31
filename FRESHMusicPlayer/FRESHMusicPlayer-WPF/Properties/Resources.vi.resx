@@ -188,7 +188,7 @@ Tệp không thể tìm: {0}</value>
     <value>Đang quét cho bài hát mới...</value>
   </data>
   <data name="NOTIFICATION_UPDATEERROR" xml:space="preserve">
-    <value>Một lỗi xảy ra khi cập nhật: {0}</value>
+    <value>Một lỗi xảy ra khi c</value>
   </data>
   <data name="NOTIFICATION_UPDATEREADY" xml:space="preserve">
     <value>Một bản cập nhật đã sẵn sàng! Khởi chạy FMP lại để cài bản cập nhật.</value>
