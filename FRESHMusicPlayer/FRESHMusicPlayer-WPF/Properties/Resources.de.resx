@@ -1,64 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
   <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -120,6 +61,21 @@
   <data name="APPLICATION_CRITICALERROR" xml:space="preserve">
     <value>Ups! Etwas ist schief gelaufen. Wir versuchen fortzufahren. Sollte dies wiederholt auftreten, bitte melde dies auf https://github.com/royce551/freshmusicplayer/issues.</value>
   </data>
+  <data name="APPLICATION_OPEN_DEBUG_LOG" xml:space="preserve">
+    <value>Debuglog öffnen</value>
+  </data>
+  <data name="CONTROLS_GOTO" xml:space="preserve">
+    <value>Gehe zu</value>
+  </data>
+  <data name="CONTROLS_MINIPLAYER" xml:space="preserve">
+    <value>Miniplayer</value>
+  </data>
+  <data name="CONTROLS_PAUSE_AFTTER_CURRENT_TRACK" xml:space="preserve">
+    <value>Nach diesem Track pausieren</value>
+  </data>
+  <data name="FULLSCREEN_FOCUSMODE" xml:space="preserve">
+    <value></value>
+  </data>
   <data name="IMPORT_BROWSE_FOLDERS" xml:space="preserve">
     <value>Nach Ordern suchen</value>
   </data>
@@ -131,6 +87,30 @@
   </data>
   <data name="IMPORT_DRAGDROP_PROMPT" xml:space="preserve">
     <value>Du kannst auch Dateien auf diese Seite ziehen.</value>
+  </data>
+  <data name="IMPORT_MANUALENTRY" xml:space="preserve">
+    <value>Manuelle Dateipfad-/URL-Eingabe</value>
+  </data>
+  <data name="LIBRARY_ADD_TO_PLAYLIST" xml:space="preserve">
+    <value>Zur Playlist hinzufügen</value>
+  </data>
+  <data name="LIBRARY_ENQUEUEALL" xml:space="preserve">
+    <value>Alle einreihen</value>
+  </data>
+  <data name="LIBRARY_OPEN_FILEEXPLORER" xml:space="preserve">
+    <value>In Dateiexplorer öffnen</value>
+  </data>
+  <data name="LIBRARY_PLAYALL" xml:space="preserve">
+    <value>Alle abspielen</value>
+  </data>
+  <data name="LYRICS" xml:space="preserve">
+    <value>Songtext</value>
+  </data>
+  <data name="LYRICS_NOLYRICS" xml:space="preserve">
+    <value>Kein Songtext verfügbar</value>
+  </data>
+  <data name="LYRICS_UNTIMEDLYRICS" xml:space="preserve">
+    <value>Ungetimter Songtext</value>
   </data>
   <data name="MAINWINDOW_ALBUMS" xml:space="preserve">
     <value>Alben</value>
@@ -144,10 +124,19 @@
   <data name="MAINWINDOW_NOARTIST" xml:space="preserve">
     <value>Kein Künstler</value>
   </data>
+  <data name="MAINWINDOW_NOTHINGPLAYING" xml:space="preserve">
+    <value>Nichts spielt</value>
+  </data>
   <data name="MAINWINDOW_PLAYBACK_ERROR_DETAILS" xml:space="preserve">
     <value>Es trat beim Abspielen ein Fehler auf:
 {0}
 Wir werden für dich zum nächsten Track springen</value>
+  </data>
+  <data name="MAINWINDOW_PLAYLISTS" xml:space="preserve">
+    <value>Playlisten</value>
+  </data>
+  <data name="MAINWINDOW_SEARCH" xml:space="preserve">
+    <value>Suchen</value>
   </data>
   <data name="MAINWINDOW_SETTINGS" xml:space="preserve">
     <value>Einstellungen</value>
@@ -173,15 +162,63 @@ Wir werden für dich zum nächsten Track springen</value>
   <data name="MENUBAR_TAGSOURCES" xml:space="preserve">
     <value>_Tag Quellen</value>
   </data>
+  <data name="MINIPLAYER_BACK" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
   <data name="NOTIFICATIONS_CLEAR_ALL" xml:space="preserve">
     <value>Alles entfernen</value>
   </data>
   <data name="NOTIFICATIONS_TITLE" xml:space="preserve">
     <value>Benachrichtigungen</value>
   </data>
+  <data name="NOTIFICATION_CLEARSUCCESS" xml:space="preserve">
+    <value>Bibliothek erfolgreich geleert!</value>
+  </data>
   <data name="NOTIFICATION_COULD_NOT_IMPORT_PLAYLIST" xml:space="preserve">
     <value>Diese Playlistdatei konnte nicht importiert werden, weil ein oder mehrere Tracks nicht gefunden worden konnten.
 Fehlende Datei: {0}</value>
+  </data>
+  <data name="NOTIFICATION_FILEGONE" xml:space="preserve">
+    <value>Die Datei, die du abzuspielen versucht hast ("{0}"), scheint nicht zu existieren.</value>
+  </data>
+  <data name="NOTIFICATION_INSTALLINGUPDATE" xml:space="preserve">
+    <value>Installiert Update...</value>
+  </data>
+  <data name="NOTIFICATION_SCANNING" xml:space="preserve">
+    <value>Scannt nach neuen Tracks...</value>
+  </data>
+  <data name="NOTIFICATION_UPDATEERROR" xml:space="preserve">
+    <value>Beim Aktualisieren trat ein Fehler ein: {0}</value>
+  </data>
+  <data name="NOTIFICATION_UPDATEREADY" xml:space="preserve">
+    <value>Ein Update ist bereit! Starte FMP neu, um das Update anzuwenden.</value>
+  </data>
+  <data name="NOTIFICATION_UPTODATE" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="NOTIFICATION_UPTODATE_CHANGELOG" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="PLAYLISTMANAGEMENT" xml:space="preserve">
+    <value>Playlistmanagement </value>
+  </data>
+  <data name="PLAYLISTMANAGEMENT_CREATE" xml:space="preserve">
+    <value>Erstellen</value>
+  </data>
+  <data name="PLAYLISTMANAGEMENT_DELETE" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="PLAYLISTMANAGEMENT_EXPORT" xml:space="preserve">
+    <value>Exportieren</value>
+  </data>
+  <data name="PLAYLISTMANAGEMENT_HEADER" xml:space="preserve">
+    <value>Was willst du mit "{0}" machen?</value>
+  </data>
+  <data name="PLAYLISTMANAGEMENT_INVALIDNAME" xml:space="preserve">
+    <value>"{0}" ist kein gültiger Name für eine Playlist.</value>
+  </data>
+  <data name="PLAYLISTMANAGEMENT_RENAME" xml:space="preserve">
+    <value>Umbenennen</value>
   </data>
   <data name="QUEUEMANAGEMENT_ADDPLAYLIST" xml:space="preserve">
     <value>Playlist hinzufügen</value>
@@ -198,6 +235,98 @@ Fehlende Datei: {0}</value>
   <data name="QUEUEMANAGEMENT_REMAININGTIME" xml:space="preserve">
     <value>Verbleibende Zeit - </value>
   </data>
+  <data name="SETTINGS_ABOUT" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="SETTINGS_APPEARANCE" xml:space="preserve">
+    <value>Aussehen</value>
+  </data>
+  <data name="SETTINGS_AUTOIMPORT" xml:space="preserve">
+    <value>Automatisches Importieren</value>
+  </data>
+  <data name="SETTINGS_AUTOIMPORTDESCRIPTION" xml:space="preserve">
+    <value>FMP wird neue Tracks von diesen Ordnern importieren:</value>
+  </data>
+  <data name="SETTINGS_AUTOIMPORT_ADDFOLDER" xml:space="preserve">
+    <value>Ordner hinzufügen</value>
+  </data>
+  <data name="SETTINGS_AUTOUPDATEMODE" xml:space="preserve">
+    <value>Auto-Update Modus</value>
+  </data>
+  <data name="SETTINGS_CLEANLIBRARY" xml:space="preserve">
+    <value>Bibliothek reinigen und aktualisieren</value>
+  </data>
+  <data name="SETTINGS_CREDITS" xml:space="preserve">
+    <value>Von Squid Grill (und open-source Beitragenden)
+Lizensiert unter GPL v3
+Danke, dass du FRESHMusicPlayer verwendest! ♥</value>
+  </data>
+  <data name="SETTINGS_GENERAL" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="SETTINGS_INTEGRATION" xml:space="preserve">
+    <value>Integration</value>
+  </data>
+  <data name="SETTINGS_LANGUAGE" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="SETTINGS_MAINTENANCE" xml:space="preserve">
+    <value>Wartung</value>
+  </data>
+  <data name="SETTINGS_NUKELIBRARY" xml:space="preserve">
+    <value>Vernichte Bibliothek</value>
+  </data>
+  <data name="SETTINGS_NUKE_LIBRARY_WARNING" xml:space="preserve">
+    <value>Bist du dir sicher, dass du deine Bibliothek unwiderruflich leeren willst?</value>
+  </data>
+  <data name="SETTINGS_PLAYBACKTRACKING" xml:space="preserve">
+    <value>Trackverlauf speichern</value>
+  </data>
+  <data name="SETTINGS_RESET" xml:space="preserve">
+    <value>Setze Konfiguration auf Standardwerte zurück</value>
+  </data>
+  <data name="SETTINGS_RESTART_NEEDED_PROMPT" xml:space="preserve">
+    <value>FMP muss neugestartet werden, um deine Änderungen anzunehmen.</value>
+  </data>
+  <data name="SETTINGS_RESTART_NOW" xml:space="preserve">
+    <value>Jetzt neustarten</value>
+  </data>
+  <data name="SETTINGS_SUBHEADER" xml:space="preserve">
+    <value>Ändere wie sich FMP verhält</value>
+  </data>
+  <data name="SETTINGS_THEME" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="SETTINGS_THEME_DARK" xml:space="preserve">
+    <value>Dunkel</value>
+  </data>
+  <data name="SETTINGS_THEME_LIGHT" xml:space="preserve">
+    <value>Hell</value>
+  </data>
+  <data name="SETTINGS_TIMEWINDOWTITLE" xml:space="preserve">
+    <value>Zeige Zeit statt Titel in der Fensterleiste</value>
+  </data>
+  <data name="SETTINGS_UPDATES" xml:space="preserve">
+    <value>Updates</value>
+  </data>
+  <data name="SETTINGS_UPDATESCHECKNOW" xml:space="preserve">
+    <value>Überprüfe nach Updates</value>
+  </data>
+  <data name="SETTINGS_UPDATESLASTCHECKED" xml:space="preserve">
+    <value>Letztes Mal überprüft {0}</value>
+  </data>
+  <data name="SETTINGS_UPDATES_AUTO" xml:space="preserve">
+    <value>Automatisch</value>
+  </data>
+  <data name="SETTINGS_UPDATES_MANUAL" xml:space="preserve">
+    <value>Manuell</value>
+  </data>
+  <data name="SETTINGS_UPDATES_PROMPT" xml:space="preserve">
+    <value>Frage vorm Updaten</value>
+  </data>
+  <data name="TAGEDITOR" xml:space="preserve">
+    <value>Tageditor</value>
+  </data>
   <data name="TAGEDITOR_ALBUMARTIST" xml:space="preserve">
     <value>Album Künstler</value>
   </data>
@@ -213,11 +342,26 @@ Fehlende Datei: {0}</value>
   <data name="TAGEDITOR_COMPOSER" xml:space="preserve">
     <value>Komponist</value>
   </data>
+  <data name="TAGEDITOR_COVERART" xml:space="preserve">
+    <value>Deckblattkunst</value>
+  </data>
   <data name="TAGEDITOR_DISCNUM" xml:space="preserve">
     <value>CD Nummer</value>
   </data>
   <data name="TAGEDITOR_EDITINGHEADER" xml:space="preserve">
     <value>Bearbeitet </value>
+  </data>
+  <data name="TAGEDITOR_INTEGRATIONDISAMBIGUATION" xml:space="preserve">
+    <value>Es gibt mehrere Suchergebnisse für dieses Album. Welches benötigst du?</value>
+  </data>
+  <data name="TAGEDITOR_NOCOVERART" xml:space="preserve">
+    <value>Keine Deckblattkunst vorhanden</value>
+  </data>
+  <data name="TAGEDITOR_NOINTERNET" xml:space="preserve">
+    <value>Du bist nicht mit dem Internet verbunden :(</value>
+  </data>
+  <data name="TAGEDITOR_NORESULTS" xml:space="preserve">
+    <value>Es wurden für dieses Album keine Ergebnisse gefunden :(</value>
   </data>
   <data name="TAGEDITOR_SAVE" xml:space="preserve">
     <value>Speichern</value>
@@ -239,7 +383,6 @@ Fehlende Datei: {0}</value>
   </data>
   <data name="TRACKINFO_BITRATE" xml:space="preserve">
     <value>Bitrate</value>
-    <comment>"kbps" is inserted after this</comment>
   </data>
   <data name="TRACKINFO_DISCNUMBER" xml:space="preserve">
     <value>CD</value>
@@ -247,220 +390,19 @@ Fehlende Datei: {0}</value>
   <data name="TRACKINFO_GENRE" xml:space="preserve">
     <value>Genre</value>
   </data>
+  <data name="TRACKINFO_NOTAVAILABLE" xml:space="preserve">
+    <value></value>
+  </data>
   <data name="TRACKINFO_TECHNICALINFO" xml:space="preserve">
     <value>Technische Info</value>
   </data>
   <data name="TRACKINFO_TRACKINFO" xml:space="preserve">
     <value>Track Info</value>
-    <comment>Track Info header</comment>
   </data>
   <data name="TRACKINFO_TRACKNUMBER" xml:space="preserve">
     <value>Track</value>
   </data>
   <data name="TRACKINFO_YEAR" xml:space="preserve">
     <value>Jahr</value>
-  </data>
-  <data name="LIBRARY_ENQUEUEALL" xml:space="preserve">
-    <value>Alle einreihen</value>
-  </data>
-  <data name="SETTINGS_TIMEWINDOWTITLE" xml:space="preserve">
-    <value>Zeige Zeit statt Titel in der Fensterleiste</value>
-  </data>
-  <data name="SETTINGS_SUBHEADER" xml:space="preserve">
-    <value>Ändere wie sich FMP verhält</value>
-  </data>
-  <data name="SETTINGS_RESET" xml:space="preserve">
-    <value>Setze Konfiguration auf Standardwerte zurück</value>
-  </data>
-  <data name="SETTINGS_OUTPUTDEVICE" xml:space="preserve">
-    <value>Ausgabegerät</value>
-  </data>
-  <data name="SETTINGS_NUKELIBRARY" xml:space="preserve">
-    <value>Vernichte Bibliothek</value>
-  </data>
-  <data name="SETTINGS_LANGUAGE" xml:space="preserve">
-    <value>Sprache</value>
-  </data>
-  <data name="SETTINGS_IMPORTOLDFMP" xml:space="preserve">
-    <value>Importiere Bibliothek von altem FMP</value>
-  </data>
-  <data name="SETTINGS_GENERAL" xml:space="preserve">
-    <value>Allgemein</value>
-  </data>
-  <data name="SETTINGS_CREDITS" xml:space="preserve">
-    <value>Von Squid Grill (und open-source Beitragenden)
-Lizensiert unter GPL v3
-Danke, dass du FRESHMusicPlayer verwendest! ♥</value>
-  </data>
-  <data name="PLAYLISTMANAGEMENT_RENAME" xml:space="preserve">
-    <value>Umbenennen</value>
-  </data>
-  <data name="PLAYLISTMANAGEMENT_EXPORT" xml:space="preserve">
-    <value>Exportieren</value>
-  </data>
-  <data name="PLAYLISTMANAGEMENT_CREATE" xml:space="preserve">
-    <value>Erstellen</value>
-  </data>
-  <data name="MAINWINDOW_SEARCH" xml:space="preserve">
-    <value>Suchen</value>
-  </data>
-  <data name="MAINWINDOW_PLAYLISTS" xml:space="preserve">
-    <value>Playlisten</value>
-  </data>
-  <data name="MAINWINDOW_NOTHINGPLAYING" xml:space="preserve">
-    <value>Nichts spielt</value>
-  </data>
-  <data name="LIBRARY_PLAYALL" xml:space="preserve">
-    <value>Alle abspielen</value>
-  </data>
-  <data name="IMPORT_MANUALENTRY" xml:space="preserve">
-    <value>Manuelle Dateipfad-/URL-Eingabe</value>
-  </data>
-  <data name="SETTINGS_UPDATES_PROMPT" xml:space="preserve">
-    <value>Frage vorm Updaten</value>
-  </data>
-  <data name="SETTINGS_UPDATES_MANUAL" xml:space="preserve">
-    <value>Manuell</value>
-  </data>
-  <data name="SETTINGS_UPDATES_AUTO" xml:space="preserve">
-    <value>Automatisch</value>
-  </data>
-  <data name="SETTINGS_UPDATESLASTCHECKED" xml:space="preserve">
-    <value>Letztes Mal überprüft {0}</value>
-  </data>
-  <data name="SETTINGS_UPDATESCHECKNOW" xml:space="preserve">
-    <value>Überprüfe nach Updates</value>
-  </data>
-  <data name="SETTINGS_UPDATES" xml:space="preserve">
-    <value>Updates</value>
-  </data>
-  <data name="SETTINGS_THEME_LIGHT" xml:space="preserve">
-    <value>Hell</value>
-  </data>
-  <data name="SETTINGS_THEME_DARK" xml:space="preserve">
-    <value>Dunkel</value>
-  </data>
-  <data name="SETTINGS_THEME" xml:space="preserve">
-    <value>Theme</value>
-  </data>
-  <data name="SETTINGS_PRERELEASE" xml:space="preserve">
-    <value>Bekomme pre-release Versionen von FMP</value>
-  </data>
-  <data name="SETTINGS_MAINTENANCE" xml:space="preserve">
-    <value>Wartung</value>
-  </data>
-  <data name="SETTINGS_INTEGRATION" xml:space="preserve">
-    <value>Integration</value>
-  </data>
-  <data name="SETTINGS_AUTOUPDATEMODE" xml:space="preserve">
-    <value>Auto-Update Modus</value>
-  </data>
-  <data name="SETTINGS_APPEARANCE" xml:space="preserve">
-    <value>Aussehen</value>
-  </data>
-  <data name="SETTINGS_ABOUT" xml:space="preserve">
-    <value>Über</value>
-  </data>
-  <data name="PLAYLISTMANAGEMENT_HEADER" xml:space="preserve">
-    <value>Was willst du mit "{0}" machen?</value>
-  </data>
-  <data name="TAGEDITOR_NORESULTS" xml:space="preserve">
-    <value>Es wurden für dieses Album keine Ergebnisse gefunden :(</value>
-  </data>
-  <data name="TAGEDITOR_NOINTERNET" xml:space="preserve">
-    <value>Du bist nicht mit dem Internet verbunden :(</value>
-  </data>
-  <data name="TAGEDITOR_NOCOVERART" xml:space="preserve">
-    <value>Keine Deckblattkunst vorhanden</value>
-  </data>
-  <data name="TAGEDITOR_INTEGRATIONDISAMBIGUATION" xml:space="preserve">
-    <value>Es gibt mehrere Suchergebnisse für dieses Album. Welches benötigst du?</value>
-  </data>
-  <data name="TAGEDITOR_COVERART" xml:space="preserve">
-    <value>Deckblattkunst</value>
-  </data>
-  <data name="TAGEDITOR" xml:space="preserve">
-    <value>Tageditor</value>
-  </data>
-  <data name="SETTINGS_RESTART_NOW" xml:space="preserve">
-    <value>Jetzt neustarten</value>
-  </data>
-  <data name="SETTINGS_RESTART_NEEDED_PROMPT" xml:space="preserve">
-    <value>FMP muss neugestartet werden, um deine Änderungen anzunehmen.</value>
-  </data>
-  <data name="SETTINGS_PLAYBACKTRACKING" xml:space="preserve">
-    <value>Trackverlauf speichern</value>
-  </data>
-  <data name="SETTINGS_NUKE_LIBRARY_WARNING" xml:space="preserve">
-    <value>Bist du dir sicher, dass du deine Bibliothek unwiderruflich leeren willst?</value>
-  </data>
-  <data name="SETTINGS_CLEANLIBRARY" xml:space="preserve">
-    <value>Bibliothek reinigen und aktualisieren</value>
-  </data>
-  <data name="SETTINGS_AUTOIMPORT_ADDFOLDER" xml:space="preserve">
-    <value>Ordner hinzufügen</value>
-  </data>
-  <data name="SETTINGS_AUTOIMPORTDESCRIPTION" xml:space="preserve">
-    <value>FMP wird neue Tracks von diesen Ordnern importieren:</value>
-  </data>
-  <data name="SETTINGS_AUTOIMPORT" xml:space="preserve">
-    <value>Automatisches Importieren</value>
-  </data>
-  <data name="PLAYLISTMANAGEMENT_INVALIDNAME" xml:space="preserve">
-    <value>"{0}" ist kein gültiger Name für eine Playlist.</value>
-  </data>
-  <data name="PLAYLISTMANAGEMENT_DELETE" xml:space="preserve">
-    <value>Löschen</value>
-  </data>
-  <data name="PLAYLISTMANAGEMENT" xml:space="preserve">
-    <value>Playlistmanagement</value>
-  </data>
-  <data name="NOTIFICATION_UPDATEREADY" xml:space="preserve">
-    <value>Ein Update ist bereit! Starte FMP neu, um das Update anzuwenden.</value>
-  </data>
-  <data name="NOTIFICATION_UPDATEERROR" xml:space="preserve">
-    <value>Beim Aktualisieren trat ein Fehler ein: {0}</value>
-  </data>
-  <data name="NOTIFICATION_SCANNING" xml:space="preserve">
-    <value>Scannt nach neuen Tracks...</value>
-  </data>
-  <data name="NOTIFICATION_INSTALLINGUPDATE" xml:space="preserve">
-    <value>Installiert Update...</value>
-  </data>
-  <data name="NOTIFICATION_FILEGONE" xml:space="preserve">
-    <value>Die Datei, die du abzuspielen versucht hast ("{0}"), scheint nicht zu existieren.</value>
-  </data>
-  <data name="NOTIFICATION_CLEARSUCCESS" xml:space="preserve">
-    <value>Bibliothek erfolgreich geleert!</value>
-  </data>
-  <data name="MINIPLAYER_BACK" xml:space="preserve">
-    <value>Zurück</value>
-  </data>
-  <data name="LYRICS_UNTIMEDLYRICS" xml:space="preserve">
-    <value>Ungetimter Songtext</value>
-  </data>
-  <data name="LYRICS_NOLYRICS" xml:space="preserve">
-    <value>Kein Songtext verfügbar</value>
-  </data>
-  <data name="LYRICS" xml:space="preserve">
-    <value>Songtext</value>
-  </data>
-  <data name="LIBRARY_OPEN_FILEEXPLORER" xml:space="preserve">
-    <value>In Dateiexplorer öffnen</value>
-  </data>
-  <data name="LIBRARY_ADD_TO_PLAYLIST" xml:space="preserve">
-    <value>Zur Playlist hinzufügen</value>
-  </data>
-  <data name="CONTROLS_PAUSE_AFTTER_CURRENT_TRACK" xml:space="preserve">
-    <value>Nach diesem Track pausieren</value>
-  </data>
-  <data name="CONTROLS_MINIPLAYER" xml:space="preserve">
-    <value>Miniplayer</value>
-  </data>
-  <data name="CONTROLS_GOTO" xml:space="preserve">
-    <value>Gehe zu</value>
-  </data>
-  <data name="APPLICATION_OPEN_DEBUG_LOG" xml:space="preserve">
-    <value>Debuglog öffnen</value>
   </data>
 </root>
